@@ -1,6 +1,7 @@
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -60,6 +61,11 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Bai Jamjuree';
+  align-items: center;
+  gap: 5px;
 }
 
 .logo:hover {
@@ -438,4 +444,17 @@ footer p {
   color: black;
   font-weight: 800;
   font-size: x-large;
+}
+
+.Logo-first-letter{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  font-family: 'Bai Jamjuree';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }

@@ -182,6 +182,11 @@ section {
   margin: auto 0;
 }
 
+.profile-pic{
+  border-radius: 10px;
+  box-shadow: 0 0 30px black;
+}
+
 .section__text {
   align-self: center;
   text-align: center;
